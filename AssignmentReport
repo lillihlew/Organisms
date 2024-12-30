@@ -1,0 +1,110 @@
+/*Assignment 5 (AssignmentReport): Lilli Lewis 
+ * 11/9/23
+ * I confirm that the above list of sources is complete AND that I have 
+ *  not talked to anyone else about the solution to this problem.*/
+
+1 Cooperator 99 Defectors:
+I think that the defectors will thrive since there are 99 of them. In the first 10 
+iterations, all of the organisms will grow from 1 to 10 energy points, and during 
+that tenth iteration, all of the organisms will reproduce. since there are so many more
+defectors than cooperators, if the defectors reproduce and replace the cooperators
+produced, then there will be no cooperators left. If the cooperators successfully 
+reproduce even twice, though, I think they will win out after 100 iterations. I predict
+that at the end there will either be all cooperators or all defectors, and more 
+likely all defectors. Since the cooperators can work together, they reproduce much 
+more quickly than the defectors, and can easily take over. The average of averages 
+will be close to 1. The results supported my prediction perfectly, if the cooperators 
+reproduced twice (like had more than 2 of them in the dish at once) then they took 
+over and if they didn't reproduce twice they were wiped out. The average of averages
+was 0.8, which fits my prediction.
+After 100 ticks:
+Cooperators = 0, 0, 0, 100, 100, 0, 0, 0, 0, 0									Avg: 20
+Defectors   = 100, 100, 100, 0, 0, 100, 100, 100, 100, 100						Avg: 80
+Partial     = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0										Avg: 0
+Mean Cooperation Probability = 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0 Avg: .8
+
+
+1 Defector 99 Cooperators
+I  think that the defector will die out almost immediately, if not immediately.
+Since the cooperators can work together, they can reproduce very quickly, whereas
+it takes the defector ten updates to be able to reproduce. I've seen cooperators
+get so much energy share that they'ree at 17 energy points before reproducing, meaning
+that they got shared with at least 8 times in that update. So, I think every result
+will be all cooperators at the end, and that the mean cooperation probability will always 
+be 1. The results support my prediction perfectly because in each experiment, there were 
+no defectors left. The average of averages was 1.
+After 100 ticks for each of the ten iterations:
+Cooperators = 100, 100, 100, 100, 100, 100, 100, 100, 100, 100					Avg: 100
+Defectors   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0										Avg: 0
+Partial     = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0										Avg: 0
+Mean Cooperation Probability = 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0		Avg: 1.0
+
+
+1 Cooperator, 1 Defector, 98 Partial Cooperators
+I think that it is most likely that partial cooperators will win out and be the 
+only surviving species, but there is some probability of the sole cooperator being 
+able to survive long enough to reproduce successfully, though I highly doubt that
+would happen. The only way would be for most of the partial cooperators to act
+as defectors for most of the time, which won't happen since they're written to 
+work as cooperators 50% of the time. Cooperators, as I've said before, reproduce 
+too quickly to give the defector a chance of surviving, and I doubt the sole
+partial cooperator will last long since it doesn't have other partial cooperators 
+to share energy with, so it would actually likely die within the first update.
+The results supported my prediction perfectly: the partial cooperators won out 
+each time and the average of averages was 0.5.
+After 100 ticks for each of the ten iterations:
+Cooperators = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0											Avg: 0
+Defectors   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0											Avg: 0
+Partial     = 100, 100, 100, 100, 100, 100, 100, 100, 100, 100						Avg: 100
+Mean Cooperation Probability = 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5		Avg: 0.5
+
+
+33 Cooperators, 33 Defectors, 34 Partial Cooperators
+I predict that there will be mostly cooperators and maybe a few partial cooperators 
+after 100 iterations. The partial cooperators have a fighting chance this time since 
+they have 33 helpers and can reproduce way more quickly with help. Otherwise, the 
+cooperators will dominate. Either way, the defectors will die out very quickly. The
+results almost support my prediction: the cooperators did dominate. However, it 
+appears as though the partial cooperators could not last long enough to reproduce 
+quickly enough to stay alive, and the cooperators overwhelmed them. The defectors 
+all died out. The average of averages was 1.0.
+After 100 ticks for each of the ten iterations:
+Cooperators = 100, 100, 100, 100, 100, 100, 100, 100, 100, 100						Avg: 100
+Defectors   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0											Avg: 0
+Partial     = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0											Avg: 0
+Mean Cooperation Probability = 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0			Avg: 1.0
+
+
+50 Cooperators, 25 Defectors, 25  Partial Cooperators
+There is no chance of survival for anything but the cooperators. After the last
+experiment when they were on an equal playing field and cooperators still won out,
+there is no way that defectors or partial cooperators will survive this. The 
+cooperators will reproduce and replace the partial cooperators and defectors before 
+they will be able to reproduce. The results support my predictions perfectly, 
+nothing put cooperators survived any of the experiments and the average of averages 
+was 1.0.
+After 100 ticks for each of the ten iterations:
+Cooperators = 100, 100, 100, 100, 100, 100, 100, 100, 100, 100						Avg: 100
+Defectors   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0											Avg: 0
+Partial     = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0											Avg: 0
+Mean Cooperation Probability = 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0			Avg: 1.0
+
+
+What insights can you make regarding what lets cooperators succeed in this simulation versus go extinct?
+In this experiment, I found that on an equal playing field (33 33 34), cooperators were 
+the only organism capable of surviving 100 iterations of updates, and I think it is because 
+of how quickly they can share energy. Since they can share energy so quickly, they are able 
+to reproduce way more quickly than other organisms can, easily replacing them. Though, 
+I must say, I think that the amount of starting helpers the cooperators have is an indicator 
+of success as well. In an experiment with 99 defectors, the cooperator only won out 20% of 
+the time, because it started alone and only successfully reproduced enough times to make a 
+difference 20% of the time before being replaced with defectors. But, when there were 98 
+partial cooperators, the partial cooperators won out over the cooperators, because they could 
+grow from sharing energy with each other. In nature, I would expect partial cooperators
+to be a much more prominent species since they reproduce so quickly, and I would expect
+defectors to be very rare since they take a very long time to reproduce. I would expect 
+a large-ish population of partial cooperators, but less than half as many of them as the
+cooperators since they cannot reproduce even half as quickly. I ran a few of my own 
+experiments and found that cooperators were able to completely dominate even when they
+started with a population of 5 and partial cooperators started with a population of 95.
+
